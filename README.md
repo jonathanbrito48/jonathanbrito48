@@ -23,4 +23,4 @@ Projeto desenvolvido utilizando Django e HTML/CSS, com banco de dados PostgreSQL
 
 ## Contato
 - **E-mail:** jonathan.brito48@gmail.com
-- **LinkedIn:** [Jonathan Brito](https://www.linkedin.com/in/jonathanbrito48)
+- **LinkedIn:** [Jonathan Brito](https://www.linkedin.com/in/jonathan-brito-0a3875108)
