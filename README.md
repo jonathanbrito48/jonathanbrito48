@@ -10,7 +10,7 @@
 
 ## 👨‍💻 Sobre Mim
 
-<div align="center" style="background:#f5f5f5;padding:15px;border-radius:5px;margin:10px 0;">
+<div style="background:#f5f5f5;padding:15px;border-radius:5px;margin:10px 0;">
 <pre>
 class DataProfessional:
     def __init__(self):
