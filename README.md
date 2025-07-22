@@ -9,6 +9,19 @@ Welcome! I'm passionate about building scalable data pipelines, robust backend s
 
 ## 🚀 Featured Projects
 
+### 📡 OBPC Church Website  
+[🔗 Repository](https://github.com/jonathanbrito48/site_obpc)  
+**Django · PostgreSQL · Docker · GCP · REST APIs**
+
+A full-stack church website built with Django and PostgreSQL, integrated with external APIs and deployed on Google Cloud Platform.
+
+- Consumes **YouTube and Instagram APIs** to dynamically populate content  
+- Built with Django and PostgreSQL for content and media management  
+- Dockerized with Docker Compose for consistent deployment  
+- Hosted on **Google Cloud Platform (GCP)** with version control via GitHub
+
+> Real-world project demonstrating backend integration, API consumption, and containerized cloud deployment.
+
 ### 🧠 AI Car Recommendation System  
 [🔗 Repository](https://github.com/jonathanbrito48/ai_project)  
 **Python · Docker · FAISS · LLM (Ollama) · SQLite · Pytest**
