@@ -1,7 +1,7 @@
 # 👨‍💻 Jonathan Loiola Brito
 
 **Data Engineer & Python Backend Developer**  
-ETL • APIs • PostgreSQL • GCP • Docker • AI • LLMs • Vector Search
+ETL • APIs • PostgreSQL • GCP • Docker • Django • AI • LLMs • Vector Search
 
 Welcome! I'm passionate about building scalable data pipelines, robust backend systems, and integrating AI into real-world solutions. Below you’ll find a selection of my projects that showcase my skills across Data Engineering, API development, and applied AI.
 
