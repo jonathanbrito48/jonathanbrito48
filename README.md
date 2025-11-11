@@ -72,7 +72,7 @@ A simple, static landing page for a fictional consulting service.
 | Domain              | Technologies                                      |
 |---------------------|--------------------------------------------------|
 | Data Engineering    | Python, Pandas, SQL, Star Schema                 |
-| Backend Development | Django, Django REST, PostgreSQL, API Auth        |
+| Backend Development | Django, Django REST, Flask, Celery, PostgreSQL, API Auth        |
 | Infrastructure      | Docker, Docker Compose, GitHub Pages             |
 | AI & NLP            | LLMs (Ollama), FAISS, Vector Search, Embeddings  |
 | Testing             | Pytest                                           |
