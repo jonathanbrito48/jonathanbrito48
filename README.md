@@ -1,88 +1,80 @@
-# 👨‍💻 Jonathan Loiola Brito
+# <div align="center">Jonathan Brito</div>
 
-**Data Engineer & Python Backend Developer**  
-ETL • APIs • PostgreSQL • GCP • Docker • Django • AI • LLMs • Vector Search
+<div align="center">
+  <h3>Cloud Architect & Data Engineer</h3>
+  <p>
+    Desenho arquiteturas escaláveis, orquestro dados complexos e modernizo infraestruturas com foco absoluto no ecossistema Google Cloud (GCP), automação inteligente e alta resiliência em produção.
+  </p>
+</div>
 
-Welcome! I'm passionate about building scalable data pipelines, robust backend systems, and integrating AI into real-world solutions. Below you’ll find a selection of my projects that showcase my skills across Data Engineering, API development, and applied AI.
+<div align="center">
 
----
+[![Google Cloud Certified - Professional Cloud Architect](https://img.shields.io/badge/Google%20Cloud%20Certified-Professional%20Cloud%20Architect-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)](https://www.credly.com/badges/251634f5-7ee6-4c1a-8322-dfdbfac9b3e4/public_url)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jonathan-loiola-brito/)
+[![Portfolio](https://img.shields.io/badge/Portfolio%20Web-09090b?style=for-the-badge&logo=vercel&logoColor=white)](https://github.com/jonathanbrito48/portfolio)
 
-## 🚀 Featured Projects
-
-### 📡 OBPC Church Website  
-[🔗 Repository](https://github.com/jonathanbrito48/site_obpc)  
-**Django · PostgreSQL · Docker · GCP · REST APIs**
-
-A full-stack church website built with Django and PostgreSQL, integrated with external APIs and deployed on Google Cloud Platform.
-
-- Consumes **YouTube and Instagram APIs** to dynamically populate content  
-- Built with Django and PostgreSQL for content and media management  
-- Dockerized with Docker Compose for consistent deployment  
-- Hosted on **Google Cloud Platform (GCP)** with version control via GitHub
-
-> Real-world project demonstrating backend integration, API consumption, and containerized cloud deployment.
-
-### 🧠 AI Car Recommendation System  
-[🔗 Repository](https://github.com/jonathanbrito48/ai_project)  
-**Python · Docker · FAISS · LLM (Ollama) · SQLite · Pytest**
-
-A semantic car recommendation engine using vector embeddings and natural language processing.
-
-- Vector search with FAISS for similarity-based retrieval  
-- LLM integration (Ollama) for contextual Q&A  
-- Local ETL pipeline and database population using SQLite  
-- Modular architecture with Docker Compose  
-- Automated tests with Pytest for consistency and response validation
-
-> Combines Recommender Systems, LLMs, and vector databases to simulate intelligent decision-making.
+</div>
 
 ---
 
-### 🔐 Django REST API with Star Schema  
-[🔗 Repository](https://github.com/jonathanbrito48/api_djangorest)  
-**Django · Django REST Framework · PostgreSQL · API Token Auth**
+### 🌐 Core Competencies & Architecture Focus
 
-A RESTful API that simulates a dimensional data model and exposes endpoints for querying structured business data.
-
-- Relational modeling following **Star Schema design**  
-- Token-based authentication using Django REST’s built-in token system  
-- PostgreSQL database with normalized and fact/dimension tables  
-- CRUD operations and RESTful interface
-
-> Demonstrates backend design aligned with BI/Data Warehouse principles.
+- **Cloud Native & Serverless (GCP):** Arquiteturas distribuídas baseadas em Cloud Run, BigQuery, Pub/Sub, Cloud Storage e Google Document AI.
+- **Infrastructure as Code (IaC) & DevOps:** Provisionamento declarativo via Terraform, contêineres Docker, orquestração em Kubernetes (GKE), esteiras CI/CD com GitHub Actions e GitOps com Argo CD.
+- **Data Engineering & Backend:** Desenvolvimento em Python (Clean Architecture, FastAPI, Django), filas assíncronas, modelagem dimensional e pipelines analíticos com BigQuery e PostgreSQL.
+- **Cloud Security:** Implementação de princípios Zero-Trust, Workload Identity Federation (sem chaves JSON estáticas) e governança com Secret Manager.
 
 ---
 
-### 🌐 JlConsultoria Landing Page  
-[🔗 Repository](https://github.com/jonathanbrito48/jlconsultoria)  
-**HTML · CSS · GitHub Pages**
+### 🛠️ Tech Stack & Tooling
 
-A simple, static landing page for a fictional consulting service.
+```
+Cloud Ecosystem    :: Google Cloud Platform (GCP), AWS (Migration/Hybrid)
+Infrastructure/IaC :: Terraform, Docker, Kubernetes (GKE), GitHub Actions, Argo CD
+Backend / Python   :: Python (3.9 - 3.12), FastAPI, Django, Clean Architecture, Ruff, Mypy
+Data & Storage     :: BigQuery, Cloud Storage (GCS), PostgreSQL, Cloud SQL, Redis (Memorystore)
+Event / Messaging  :: Cloud Pub/Sub, Filas Assíncronas, DLQ, Event-Driven Architecture
+```
 
-- Static layout using only HTML and CSS  
-- Deployed via GitHub Pages  
-- Lightweight, responsive design
-
-> Clean and efficient delivery for static web presence.
-
----
-
-## ⚙️ Stack & Tools
-
-| Domain              | Technologies                                      |
-|---------------------|--------------------------------------------------|
-| Data Engineering    | Python, Pandas, SQL, Star Schema                 |
-| Backend Development | Django, Django REST, Flask, Celery, PostgreSQL, API Auth        |
-| Infrastructure      | Docker, Docker Compose, GitHub Pages             |
-| AI & NLP            | LLMs (Ollama), FAISS, Vector Search, Embeddings  |
-| Testing             | Pytest                                           |
-| Version Control     | Git, GitHub                                      |
+<div align="center">
+  <img src="https://skillicons.dev/icons?i=gcp,terraform,docker,kubernetes,githubactions,python,fastapi,postgres,redis,linux&theme=dark" alt="Tech Stack Icons" />
+</div>
 
 ---
 
-## 📫 Get in Touch
+### 🚀 Production Cases & Architectures
 
-- 🔗 [LinkedIn](https://www.linkedin.com/in/jonathan-loiola-brito/)
-- 📬 [jonathan.brito48@gmail.com](mailto:jonathan.brito48@gmail.com)
+#### 🔹 [Migração de Infraestrutura AWS para GCP](https://github.com/jonathanbrito48/portfolio)
+- **Desafio:** Migração crítica de microsserviços, 10 instâncias de banco de dados e storages legados com foco em minimizar janelas de indisponibilidade.
+- **Entrega:** Execução 100% concluída em 90 dias via IaC (Terraform), cluster GKE provisionado, Cloud SQL, Memorystore e Cutover final com zero interrupção operacional.
+- `Terraform` `GKE` `Cloud SQL` `Memorystore` `Argo CD`
 
-Let’s connect — I'm always open to discussing new ideas and collaboration opportunities.
+#### 🔹 [TSJMK OCR API — Pipeline de Dados com IA](https://github.com/jonathanbrito48/portfolio)
+- **Desafio:** Extração e padronização semântica de dados a partir de documentos médicos não-estruturados com rastreabilidade auditável.
+- **Entrega:** Arquitetura de dados Medallion nativa em nuvem (Bronze, Silver, Gold), esteira contínua de MLOps e fluxo de validação Human-In-The-Loop.
+- `Python` `FastAPI` `Document AI` `BigQuery` `Cloud Storage`
+
+#### 🔹 [ASICS — Global VTEX & Catalog Automation](https://github.com/jonathanbrito48/portfolio)
+- **Desafio:** Motor de processamento contínuo para extrair catálogos VTEX multinacionais (Brasil, Chile, Colômbia) e gerar feeds analíticos para Meta e Google Merchant.
+- **Entrega:** Sistema serverless isolado em Clean Architecture, gestão centralizada de credenciais com Secret Manager e automação ponta a ponta sem manutenção manual.
+- `Cloud Run Functions` `Secret Manager` `GitHub Actions` `Python`
+
+#### 🔹 [TaskNotation — Infraestrutura Zero-Trust & Mensageria](https://github.com/jonathanbrito48/portfolio)
+- **Desafio:** Provisionamento em nuvem com conformidade de segurança rigorosa e comunicação assíncrona tolerante a falhas.
+- **Entrega:** Workload Identity Federation configurado para pipelines CI/CD (eliminando chaves JSON estáticas) e mensageria com tópicos Cloud Pub/Sub, DLQ e Backoff Exponencial.
+- `Terraform` `Cloud Pub/Sub` `Workload Identity` `GCP`
+
+---
+
+### 📊 GitHub Activity & Metrics
+
+<div align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=jonathanbrito48&show_icons=true&theme=tokyonight&hide_border=true&bg_color=09090b&title_color=38bdf8&text_color=94a3b8&icon_color=3b82f6" alt="GitHub Stats" height="150" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jonathanbrito48&layout=compact&theme=tokyonight&hide_border=true&bg_color=09090b&title_color=38bdf8&text_color=94a3b8" alt="Top Languages" height="150" />
+</div>
+
+---
+
+<div align="center">
+  <sub>All systems operational • Built with focus on simplicity, scalability and production stability.</sub>
+</div>
